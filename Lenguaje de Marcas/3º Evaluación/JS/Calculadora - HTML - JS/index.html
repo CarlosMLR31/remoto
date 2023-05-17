@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <input type="text" id="resultado" disabled>
+    <br>
+    <button onclick="agregarNumero('7')">7</button>
+    <button onclick="agregarNumero('8')">8</button>
+    <button onclick="agregarNumero('9')">9</button>
+    <button onclick="operacion('+')">+</button>
+    <br>
+    <button onclick="agregarNumero('4')">4</button>
+    <button onclick="agregarNumero('5')">5</button>
+    <button onclick="agregarNumero('6')">6</button>
+    <button onclick="operacion('-')">-</button>
+    <br>
+    <button onclick="agregarNumero('1')">1</button>
+    <button onclick="agregarNumero('2')">2</button>
+    <button onclick="agregarNumero('3')">3</button>
+    <button onclick="operacion('*')">*</button>
+    <br>
+    <button onclick="agregarNumero('0')">0</button>
+    <button onclick="agregarNumero('.')">.</button>
+    <button onclick="calcular()">=</button>
+    <button onclick="operacion('/')">/</button>
+    <br>
+    <button onclick="borrar()">Borrar</button>
+  </body>
+  <script src="calculadora.js"></script>
+</html>
